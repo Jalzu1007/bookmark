@@ -175,7 +175,7 @@
     "Image": "",
     "Url": "https://www.google.com/books/edition/Best_Erotic_Romance/tw1zsnUkRTkC?hl=en"
   },
-   {
+  {
     "name": "Red, White & Royal Blue: A Novel    ",
     "synopsis": "What happens when America's First Son falls in love with the Prince of Wales?    ",
     "Autor": "Casey McQuiston",
@@ -210,7 +210,7 @@
   },
   {
     "name": "The Hating Game ",
-"synopsis":"Lucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive man..",
+    "synopsis": "Lucy Hutton and Joshua Templeman hate each other. Not dislike. Not begrudgingly tolerate. Hate. And they have no problem displaying their feelings through a series of ritualistic passive aggressive man..",
     "Autor": "Sally Thorne",
     "Genre": "Romance",
     "Date_publication": "August 9, 2016",
@@ -218,6 +218,60 @@
     "Number_Pages": "384",
     "Image": "",
     "Url": "https://www.google.com/books/edition/The_Hating_Game/5a3rCgAAQBAJ?hl=en&sa=X&ved=2ahUKEwiM6OHOo4qAAxVKlIkEHdZ1D2gQiqUDegQIAxAR"
+  },
+  {
+    "name": "U.S. History    ",
+    "synopsis": "The text provides a balanced approach to U.S. history, considering the people, events, and ideas that have shaped the United States from both the top down (politics, economics, diplomacy) and bottom up (eyewitness accounts, lived experience). U.S. History covers key forces that form the American experience, with particular attention to issues of race, class, and gender.",
+    "Autor": "P. Scott Corbett",
+    "Genre": "History",
+    "Date_publication": "2017",
+    "ISBN": 9789888407392,
+    "Number_Pages": "1046",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/U_S_History/2py3swEACAAJ?hl=en"
+  },
+  {
+    "name": "Russia and the Russians    ",
+    "synopsis": "Chronicles the history of the Russian Empire from the Mongol Invasion, through the Bolshevik Revolution, to the aftereffects of the Cold War.",
+    "Autor": "Geoffrey A. Hosking",
+    "Genre": "History",
+    "Date_publication": "2001",
+    "ISBN": 9780674004733,
+    "Number_Pages": "718",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Russia_and_the_Russians/oh-5AAmboMUC?hl=en&gbpv=0&bsq=history"
+  },
+  {
+    "name": "The Lessons of History",
+    "synopsis": "The Lessons of History is a 1968 book by historians Will Durant and Ariel Durant. The book provides a summary of periods and trends in history they had noted upon completion of the 10th volume of their momentous eleven-volume The Story of Civilization.",
+    "Autor": "Will Durant    ",
+    "Genre": "History",
+    "Date_publication": "August 21, 2012",
+    "ISBN": 9781439170199,
+    "Number_Pages": "128",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Lessons_of_History/LWNQ2_4wkocC?hl=en&gbpv=0"
+  },
+  {
+    "name": "A History of Egypt    ",
+"synopsis":"No country's past can match Egypt's in antiquity, richness, and variety. However, it is rarely presented as a comprehensive panorama because scholars tend to divide it into distinct eras—prehistoric, pharaonic, Greco-Roman, Coptic, medieval Islamic, Ottoman, and modern—that are not often studied in relation to one another. In this daringly ambitious project, drawing on the most current scholarship as well as his own research, Thompson makes the case that few if any other countries have as many threads of continuity running through their entire historical experience. With its unprecedented scope and lively and readable style, A History of Egypt offers students, travelers, and general readers alike an engaging narrative of the extraordinarily long course of human history by the Nile",
+    "Autor": "Jason Thompson ",
+    "Genre": "History",
+    "Date_publication": "December 2009",
+    "ISBN": 9780307473523,
+    "Number_Pages": "432",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/A_History_of_Egypt/lFGxHMxqgH8C?hl=en"
+  },
+  {
+    "name": "A History of the Ptolemaic Empire    ",
+"synopsis":"This compelling narrative provides the only comprehensive guide in English to the rise and decline of Ptolemaic rule in Egypt over three centuries - from the death of Alexander in 323 BC to the tragic deaths of Antony and Cleopatra in 30 B",
+    "Autor": "Günther Hölbl    ",
+    "Genre": "History",
+    "Date_publication": "February 2013",
+    "ISBN": 9781135119836,
+    "Number_Pages": "416",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/A_History_of_the_Ptolemaic_Empire/EPkfGkwgi9YC?hl=en&gbpv=0"
   }
-
 ]
