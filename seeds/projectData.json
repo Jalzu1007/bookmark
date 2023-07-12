@@ -1,17 +1,167 @@
 [
   {
-    "name": "Music Near Me",
-    "description": "A mobile app that will send you notifications whenever a concert is playing in your area.",
-    "needed_funding": 5000
+    "name": "Steve Jobs",
+    "synopsis": "Walter Isaacsons “enthralling” (The New Yorker) worldwide bestselling biography of Apple cofounder Steve Jobs.",
+    "Autor": "Walter Isaacson",
+    "Genre": "Biography",
+    "Date_publication": "October 24, 2011",
+    "ISBN": 9781451648539,
+    "Number_Pages": "630",
+    "Image": "()",
+    "Url": "https://www.google.com/books/edition/Steve_Jobs/6e4cDvhrKhgC?hl=en&gbpv=0"
   },
   {
-    "name": "The Ultimate Tech Quiz",
-    "description": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!",
-    "needed_funding": 10000
+    "name": "Abraham",
+    "synopsis": "The world's major religions-Judaism, Christianity, and Islam-find a common root in one man: Abraham.",
+    "Autor": "David Rosenberg",
+    "Genre": "Biography",
+    "Date_publication": "march 20, 2006",
+    "ISBN": 9780465070947,
+    "Number_Pages": "342",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Abraham/Ne9jot9VRSIC?hl=es-419&gbpv=0"
   },
   {
-    "name": "Roll 'Em Up",
-    "description": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes.",
-    "needed_funding": 800
+    "name": "The Every-Day Life of Abraham Lincoln",
+    "synopsis": "A Narrative and Descriptive Biography with Pen-Pictures and Personal Recollections by Those Who Knew Him",
+    "Autor": "Francis Fisher Browne",
+    "Genre": "Biography",
+    "Date_publication": "october 28, 2009",
+    "ISBN": 9781442909489,
+    "Number_Pages": "772",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Every_Day_Life_of_Abraham_Lincoln/UGdbLVQ1C1QC?hl=es-419&gbpv=0"
+  },
+  {
+    "name": "Mary Lincoln: Biography of a Marriage",
+    "synopsis": "More fascinating than fiction, this is the moving story of the most misunderstood woman in American history...",
+    "Autor": "Ruth Painter Randall",
+    "Genre": "Biography",
+    "Date_publication": "August 9, 2016",
+    "ISBN": 97817872002659,
+    "Number_Pages": "482",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Mary_Lincoln_Biography_of_a_Marriage/TIHjDAAAQBAJ?hl=en&gbpv=00"
+  },
+  {
+    "name": "The life of Isaac Newton",
+    "synopsis": " This book is an abridged version of Professor Westfall's highly acclaimed and well known Never at Rest: A Biography of Isaac Newton.",
+    "Autor": "Richard S. Westfall",
+    "Genre": "Biography",
+    "Date_publication": "March 26, 1993",
+    "ISBN": 9780521432528,
+    "Number_Pages": "328",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Life_of_Isaac_Newton/O-1gQgAACAAJ?hl=en"
+  },
+  {
+    "name": "The Kaiju Preservation Society",
+    "synopsis": " When COVID-19 sweeps through New York City, Jamie Gray is stuck as a dead-end driver for food delivery apps. That is, until Jamie makes a delivery to an old acquaintance, Tom, who works at what he calls “an animal rights organization.” Tom’s team needs a last-minute grunt to handle things on their next field visit. Jamie, eager to do anything, immediately signs on.",
+    "Autor": "John Scalzi",
+    "Genre": "Fantasy",
+    "Date_publication": "March 15, 2022",
+    "ISBN": 9780765389138,
+    "Number_Pages": "272",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Kaiju_Preservation_Society/OJwoEAAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "name": "Nona the Ninth",
+    "synopsis": " Her city is under siege. The zombies are coming back. And all Nona wants is a birthday party.",
+    "Autor": "Tamsyn Muir",
+    "Genre": "Fantasy",
+    "Date_publication": "September 13, 2022",
+    "ISBN": 9781250854124,
+    "Number_Pages": "496",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Nona_the_Ninth/oIxCEAAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "name": "The Uncrowned King",
+    "synopsis": "The second novel of the acclaimed Sun Sword series returns to a war-torn world of noble houses divided and demon lords unleashed...",
+    "Autor": "Michelle West    ",
+    "Genre": "Fantasy",
+    "Date_publication": "September 1998",
+    "ISBN": 9781101548929,
+    "Number_Pages": "688",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Uncrowned_King/ZFqJEAAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "name": "Fairy Tale    ",
+    "synopsis": "Legendary storyteller Stephen King goes into the deepest well of his imagination in this spellbinding novel about a seventeen-year-old boy who inherits the keys to a parallel world where good and evil are at war, and the stakes could not be higher—for that world or ours..",
+    "Autor": "Stephen King ",
+    "Genre": "Fantasy",
+    "Date_publication": "September 6, 2022",
+    "ISBN": 9781668002186,
+    "Number_Pages": "608",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Fairy_Tale/-GFaEAAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "name": "Children of Rhatlan    ",
+    "synopsis": "Garum and Vayin are duals,twins trapped in each other's minds and bodies, sharing one life. When a deranged wizard hunts them, whom can they turn to? Their mentor? The city guard Vayin loves? The Wizards' Guild? In a world that hates duals, anyone could be their enemy, and one misstep could get them killed.",
+    "Autor": "Jonathan Fesmire",
+    "Genre": "Fantasy",
+    "Date_publication": "June 2005",
+    "ISBN": 9781411637191,
+    "Number_Pages": "272",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Children_of_Rhatlan/UGlxf4xyZpsC?hl=en&gbpv=0"
+  },
+  {
+    "name": "Bring Me Back ",
+    "synopsis": "Finn and Layla are young, in love, and on vacation. They’re driving along the highway when Finn decides to stop at a service station to use the restroom. He hops out of the car, locks the doors behind him, and goes inside. When he returns Layla is gone—never to be seen again. That is the story Finn told to the police. But it is not the whole story.",
+    "Autor": "B.A. Paris ",
+    "Genre": "Thriller",
+    "Date_publication": "June 19, 2018",
+    "ISBN": 9781250151339,
+    "Number_Pages": "304",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Bring_Me_Back/pLdZDwAAQBAJ?hl=en&gbpv=0"
+  },
+  {
+    "name": "The Last Party    ",
+    "synopsis": "At midnight, one of them is dead. By morning, all of them are suspects.    ",
+    "Autor": "Clare Mackintosh    ",
+    "Genre": "Thriller",
+    "Date_publication": "November 8, 2022",
+    "ISBN": 9781728250984,
+    "Number_Pages": "432",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Last_Party/pZheEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwjssOK8iIqAAxX1RjABHTp1C9EQiqUDegQIAxAq"
+  },
+  {
+    "name": "The Murder Book ",
+    "synopsis": "Thorne has good friends by his side. His love life is newly reformed by a promising relationship and he is happy in the job he has devoted his life to. As he sets off hunting the woman responsible for a series of grisly murders, Thorne has no way of knowing that he will be plunged into a nightmare from which he may never wake. A nightmare that has a name. Thorne’s past threatens to catch up with him and a ruinous secret is about to be revealed. If he wants to save himself and his friends, he will have to do the unthinkable.",
+    "Autor": "Mark Billingham    ",
+    "Genre": "Thriller",
+    "Date_publication": "July 5, 2022",
+    "ISBN": 9780802159694,
+    "Number_Pages": "200",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/The_Murder_Book/pj5VEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwiglMP2iIqAAxVHfTABHUqRDdUQiqUDegQIAxBH"
+  },
+  {
+    "name": "A Tidy Ending    ",
+    "synopsis": "Linda has lived in a quiet neighborhood since fleeing the dark events of her childhood in Wales. Now she sits in her kitchen, wondering if this is all there is: pushing the vacuum around and cooking fish sticks for dinner, a far cry from the glamorous lifestyle she sees in the glossy magazines coming through the mail slot addressed to the previous occupant, Rebecca Finch.",
+    "Autor": "Joanna Cannon ",
+    "Genre": "Thriller",
+    "Date_publication": "August 2, 2022",
+    "ISBN": 9781982185572,
+    "Number_Pages": "352",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/A_Tidy_Ending/eHp5EAAAQBAJ?hl=en&sa=X&ved=2ahUKEwiJ1MLHiYqAAxUDRTABHQ1DCeYQiqUDegQIAxBX"
+  },
+  {
+    "name": "Such a Good Mother    ",
+"synopsis":"Rose O’Connell is barely surviving. Her marriage is rocky; her son isn’t fitting in at his new school, the prestigious Woolf Academy; and their tiny apartment in a rapidly gentrifying neighborhood can barely contain her family. As she struggles to make ends meet on her junior bank teller wages, Rose finds that life as the only mom in a name tag and uniform at the Woolf’s shiny school gates isn’t easy. ",
+    "Autor": "Helen Monks Takhar ",
+    "Genre": "Thriller",
+    "Date_publication": "August 2, 2022",
+    "ISBN": 9781984855992,
+    "Number_Pages": "368",
+    "Image": "",
+    "Url": "https://www.google.com/books/edition/Such_a_Good_Mother/hEBQEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwjq8IT5iYqAAxVgQjABHSyKCwcQiqUDegQIAxAg"
   }
 ]
