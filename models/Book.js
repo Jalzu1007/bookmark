@@ -11,20 +11,41 @@ Book.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name: {
+    title: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    description: {
+    synopsis: {
       type: DataTypes.STRING,
+      allowNull: false,
     },
-    date_created: {
+    author: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    genre: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    date_publication: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    needed_funding: {
-      type: DataTypes.FLOAT,
+    ISBN: {
+      type: DataTypes.BIGINT,
+      allowNull: false,
+    },
+    number_pages: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+    },
+    filename: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
+    url: {
+      type: DataTypes.STRING,
       allowNull: false,
     },
     user_id: {
