@@ -1,4 +1,25 @@
+/*Global Styling*/
 * {
-  background-color: #C8B6A6;
   font-family: 'BioRhyme', serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #C8B6A6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.navbar-item:hover:not(.is-active) {
+  background-color: transparent;
 }
