@@ -47,7 +47,7 @@
     "title": "The life of Isaac Newton",
     "synopsis": " This book is an abridged version of Professor Westfall's highly acclaimed and well known Never at Rest: A Biography of Isaac Newton.",
     "author": "Richard S. Westfall",
-    "Genre": "Biography",
+    "genre": "Biography",
     "date_publication": "March 26, 1993",
     "ISBN": 9780521432528,
     "number_pages": 328,
@@ -194,7 +194,7 @@
     "date_publication": "September 14, 2021",
     "ISBN": 9780593336823,
     "number_pages": 400,
-    "filenamee": "The_love_hypothesis.jpg",
+    "filename": "The_love_hypothesis.jpg",
     "url": "https://www.google.com/books/edition/The_Love_Hypothesis/OuY9EAAAQBAJ?hl=en&sa=X&ved=2ahUKEwir1tP1ooqAAxVfkokEHSLRBfcQiqUDegQIAxA5"
   },
   {
