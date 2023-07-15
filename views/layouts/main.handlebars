@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap" rel="stylesheet">
+  <!--PNG Icon for Tab-->
+  <link rel="icon" type="image/png" href="/images/Logo/logo_transparent.png">
   <!--Link to CSS Stylesheet-->
   <link rel="stylesheet" href="/css/style.css">
   <!-- jQuery Library -->
@@ -36,11 +38,11 @@
         <div class="navbar-item has-text-weight-bold is-size-5" width="112" height="28">
           <!--Render conditional statements-->
           {{#if logged_in}}
-          <a class="navbar-item" href="/profile">Profile</a>
-          <a class="navbar-item" id="logout">Logout</a>
+          <a class="navbar-item hover" href="/profile">Profile</a>
+          <a class="navbar-item hover" id="logout">Logout</a>
           {{else}}
-          <a class="navbar-item" href="/login">Login</a>
-          <a class="navbar-item" href="/signup">Sign Up</a>
+          <a class="navbar-item hover" href="/login">Login</a>
+          <a class="navbar-item hover" href="/signup">Sign Up</a>
           {{/if}}
         </div>
       </div>
@@ -57,11 +59,8 @@
   <footer class="column is-narrow footer-shadow it-has-text-centered is-flex-align-items-flex-end mt-auto" style="background-color: #A4907C;">
     <div class="content has-text-centered">
       <p>
-        &copy; 2023 <strong>BookMark</strong> by <a href="https://github.com/k-pineda" target="_blank"><strong>Karen</strong></a>,<a href="https://github.com/JuanSanchez39" target="_blank"><strong> Juan</strong></a>,<a href="https://github.com/HyonNeo" target="_blank"><strong> Facundo</strong></a>, and<a href="https://github.com/Jalzu1007/" target="_blank"> Jose</a>. The source code is<a href="./LICENSE" target="_blank"> <strong>licensed by MIT</strong></a>.
+        &copy; 2023 BookMark by <a href="https://github.com/k-pineda" target="_blank" class="hover">Karen</a>,<a href="https://github.com/JuanSanchez39" target="_blank" class="hover"> Juan</a>,<a href="https://github.com/HyonNeo" target="_blank" class="hover"> Facundo</a>, and<a href="https://github.com/Jalzu1007/" target="_blank" class="hover"> Jose</a>. The source code is<a href="./LICENSE" target="_blank" class="hover"> licensed by MIT</a>.
       </p>
-    </div>
-    <div class="has-text-centered">
-      <a href="/"><strong>Home</strong></a>
     </div>
   </footer>
 
