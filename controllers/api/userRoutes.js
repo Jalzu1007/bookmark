@@ -48,6 +48,47 @@ router.post('/login', async (req, res) => {
   }
 });
 
+
+router.post('/signup', async (req, res) => {
+  try {
+    //needs to check if email exists already 
+    const userData = {
+       email: req.body.email,
+      username: req.body.username,
+      password: req.body.password,
+      name: req.body.name
+    }
+    
+    await User.findOne({ where: {name:req.body.name, email: req.body.email} });
+
+    if (!userData) {
+      res
+        .status(400)
+        .json({ message: 'User already exists' });
+      return;
+    }
+
+    const validPassword = await userData.checkPassword(req.body.password);
+
+    if (!validPassword) {
+      res
+        .status(400)
+        .json({ message: 'Incorrect email or password, please try again' });
+      return;
+    }
+
+    req.session.save(() => {
+      req.session.user_id = userData.id;
+      req.session.logged_in = true;
+      
+      res.json({ user: userData, message: 'You are now logged in!' });
+    });
+
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
 router.post('/logout', (req, res) => {
   if (req.session.logged_in) {
     req.session.destroy(() => {
