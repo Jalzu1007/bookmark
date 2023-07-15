@@ -24,6 +24,23 @@ main {
   background-color: transparent;
 }
 
+.navbar-brand .navbar-item:hover {
+  color: whitesmoke;
+}
+
+.navbar-item.hover:hover {
+  color: white;
+}
+
+a:link,
+a:visited {
+  color: black;
+}
+
+.hover:hover {
+  color: whitesmoke;
+}
+
 .form {
   justify-self: auto;
 }
