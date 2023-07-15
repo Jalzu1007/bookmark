@@ -1,4 +1,6 @@
 const router = require('express').Router();
+const express = require('express')
+const users = express.Router()
 const { User } = require('../../models');
 
 router.post('/', async (req, res) => {
@@ -46,6 +48,43 @@ router.post('/login', async (req, res) => {
   } catch (err) {
     res.status(400).json(err);
   }
+});
+
+
+users.post('/signup', (req, res) => {
+  const today = new Date().toDateString()
+  const newuserData = {
+      email: req.body.email,
+      username: req.body.username,
+      password: req.body.password,
+      name: req.body.name,
+      datetime: today
+  }
+
+  User.findOne({
+      where: {
+          email: req.body.email
+      }
+  })
+      .then(user => {
+          if (!user) {
+              bcrypt.hash(req.body.password, 10, (err, hash) => {
+              userData.password = hash
+              User.create(newuserData)
+                  .then(user => {
+                      res.json({ status: user.email + 'REGISTERED' })
+                  })
+                  .catch(err => {
+                      res.send('ERROR: ' + err)
+                  })
+              })
+          } else {
+              res.json({ error: "USER ALREADY EXISTS" })
+          }
+      })
+      .catch(err => {
+          res.send('ERROR: ' + err)
+      })
 });
 
 router.post('/logout', (req, res) => {
