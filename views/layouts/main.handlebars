@@ -1,102 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Welcome to BookMark!</title>
+  <!--Link to Bulma CSS Framework-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <!--Google Font API-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300&display=swap" rel="stylesheet">
+  <!--Link to CSS Stylesheet-->
   <link rel="stylesheet" href="/css/style.css">
+  <!-- jQuery Library -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
 <body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item"  href="/">BookMark</a>
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div id="navbarBasicExample" class="navbar-menu is-activate">
-    <div class="navbar-start">
-      <a class="navbar-item">
-        Home
-      </a>
-
-      <a class="navbar-item">
-        Documentation
-      </a>
-
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
+  <!--Header Container-->
+  <header>
+    <!--Navbar Section-->
+    <nav class="navbar p-3" role="navigation" aria-label="main navigation" style="background-color: #A4907C;">
+      <div class="navbar-brand">
+        <a class="navbar-item has-text-weight-bold is-size-5" width="112" height="28" href="/">
+          BookMark
         </a>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            Jobs
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
+      <div class="navbar-menu navbar-end">
+        <div class="navbar-item has-text-weight-bold is-size-5" width="112" height="28">
+          <!--Render conditional statements-->
+          {{#if logged_in}}
+          <a class="navbar-item" href="/profile">Profile</a>
+          <a class="navbar-item" id="logout">Logout</a>
+          {{else}}
+          <a class="navbar-item" href="/login">Login</a>
+          <a class="navbar-item" href="/signup">Sign Up</a>
+          {{/if}}
         </div>
       </div>
-    </div>
+    </nav>
+  </header>
 
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
-      </div>
+  <!--Main Container-->
+  <main class="container container-fluid mt-5">
+    <!-- Render the sub layout -->
+    {{{ body }}}
+  </main>
+
+  <!--Footer Container-->
+  <footer class="column is-narrow footer-shadow it-has-text-centered is-flex-align-items-flex-end mt-auto" style="background-color: #A4907C;">
+    <div class="content has-text-centered">
+      <p>
+        &copy; 2023 <strong>BookMark</strong> by <a href="https://github.com/k-pineda" target="_blank"><strong>Karen</strong></a>,<a href="https://github.com/JuanSanchez39" target="_blank"><strong> Juan</strong></a>,<a href="https://github.com/HyonNeo" target="_blank"><strong> Facundo</strong></a>, and<a href="https://github.com/Jalzu1007/" target="_blank"> Jose</a>. The source code is<a href="./LICENSE" target="_blank"> <strong>licensed by MIT</strong></a>.
+      </p>
     </div>
-  </div>
-</nav>
-      
-        
-        <a href="/">BookMark</a>
-      
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">profile</a> |
-        <button class="no-button" id="logout">logout</button>
-        {{else}}
-        <a href="/login">login</a>
-        {{/if}}
-      </nav>
-    </header>
-    <main class="container container-fluid mt-5">
-      <!-- Render the sub layout -->
-      {{{ body }}}
-    </main>
-    <footer>
-      
-    </footer>
-  </div>
+    <div class="has-text-centered">
+      <a href="/"><strong>Home</strong></a>
+    </div>
+  </footer>
+
+  <!-- jQuery script for Bulma navbar functionality -->
+  <script>
+    $(document).ready(function() {
+      // Check for click events on the navbar burger icon
+      $(".navbar-burger").click(function() {
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        $(".navbar-burger").toggleClass("is-active");
+        $(".navbar-menu").toggleClass("is-active");
+      });
+    });
+  </script>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
   {{/if}}
 </body>
-
 </html>
