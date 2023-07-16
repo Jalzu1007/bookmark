@@ -3,7 +3,8 @@
   font-family: 'BioRhyme', serif;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -44,13 +45,43 @@ a:visited {
 .form {
   justify-self: auto;
 }
+.bookpage-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bookpage-container img {
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 225px;
+}
 
 #email-login {
   margin-bottom: 5px;
 }
+
 #password-login {
   margin-bottom: 5px;
 }
-#login-image{
+
+#login-image {
   margin-left: 40px;
 }
+
+#homepage-image {
+  width: 25%
+}
+
+#book-section-homepage {
+  display: flex;
+  margin-right: 900px;
+}
+
+#homepage-book-information {
+  margin-top: 25px;
+}
+
+
