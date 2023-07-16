@@ -41,16 +41,14 @@ a:visited {
   color: whitesmoke;
 }
 
-.form {
-  justify-self: auto;
-}
-
 #email-login {
   margin-bottom: 5px;
 }
+
 #password-login {
   margin-bottom: 5px;
 }
+
 #login-image{
   margin-left: 40px;
 }
