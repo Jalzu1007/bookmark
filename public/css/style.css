@@ -3,7 +3,8 @@
   font-family: 'BioRhyme', serif;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -41,6 +42,7 @@ a:visited {
   color: whitesmoke;
 }
 
+
 #email-login {
   margin-bottom: 5px;
 }
@@ -49,6 +51,21 @@ a:visited {
   margin-bottom: 5px;
 }
 
-#login-image{
+
   margin-left: 40px;
 }
+
+#homepage-image {
+  width: 25%
+}
+
+#book-section-homepage {
+  display: flex;
+  margin-right: 900px;
+}
+
+#homepage-book-information {
+  margin-top: 25px;
+}
+
+

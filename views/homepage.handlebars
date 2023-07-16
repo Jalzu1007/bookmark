@@ -1,22 +1,14 @@
 <!-- Loop over each object in the projects array -->
 {{#each books as |book| }}
-<div class="row mb-4 book">
-  <div class="col-md-5">
-    <h2>
-      <a href="/book/{{book.id}}">{{book.title}}</a>
-    </h2>
-    <p>
-      {{book.synopsis}}
-    </p>
-    <p>Written by {{book.author}}</p>
-  </div>
-  <div class="col-md-7">
-    <p>
-      {{book.genre}}
-      {{book.number_pages}}
-      {{book.date_publication}}
-      {{book.ISBN}}
-    </p>
+<div id="homepage-display-books" class="row mb-4 book">
+  <div id="book-section-homepage" class="col-md-5">
+    <div id="homepage-image"><img src="{{filename}}" alt="image"></div>
+    <div id="homepage-book-information">
+      <a href="/book/{{id}}">{{title}}</a>
+      <p>Written by {{author}}</p>
+      <p> {{genre}} </p>
+      <p>{{number_pages}} pages</p>
+    </div>
   </div>
 </div>
 {{/each}}

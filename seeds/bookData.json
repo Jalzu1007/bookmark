@@ -7,7 +7,7 @@
     "date_publication": "October 24, 2011",
     "ISBN": 9781451648539,
     "number_pages": 630,
-    "filename": "portada.jpg",
+    "filename": "/Images/front_page/portada.png",
     "url": "https://www.google.com/books/edition/Steve_Jobs/6e4cDvhrKhgC?hl=en&gbpv=0"
   },
   {
@@ -18,7 +18,7 @@
     "date_publication": "march 20, 2006",
     "ISBN": 9780465070947,
     "number_pages": 342,
-    "filename": "abraham.jpg",
+    "filename": "/Images/front_page/abraham.png",
     "url": "https://www.google.com/books/edition/Abraham/Ne9jot9VRSIC?hl=es-419&gbpv=0"
   },
   {
@@ -29,7 +29,7 @@
     "date_publication": "october 28, 2009",
     "ISBN": 9781442909489,
     "number_pages": 772,
-    "filename": "Abraham_Lincoln.jpg",
+    "filename": "/Images/front_page/Abraham_Lincoln.png",
     "url": "https://www.google.com/books/edition/The_Every_Day_Life_of_Abraham_Lincoln/UGdbLVQ1C1QC?hl=es-419&gbpv=0"
   },
   {
@@ -40,7 +40,7 @@
     "date_publication": "August 9, 2016",
     "ISBN": 97817872002659,
     "number_pages": 482,
-    "filename": "Mary_Lincoln.jpg",
+    "filename": "/Images/front_page/Mary_Lincoln.png",
     "url": "https://www.google.com/books/edition/Mary_Lincoln_Biography_of_a_Marriage/TIHjDAAAQBAJ?hl=en&gbpv=00"
   },
   {
@@ -51,7 +51,7 @@
     "date_publication": "March 26, 1993",
     "ISBN": 9780521432528,
     "number_pages": 328,
-    "filename": "isaac_newton.jpg",
+    "filename": "/Images/front_page/isaac_newton.png",
     "url": "https://www.google.com/books/edition/The_Life_of_Isaac_Newton/O-1gQgAACAAJ?hl=en"
   },
   {
@@ -62,7 +62,7 @@
     "date_publication": "March 15, 2022",
     "ISBN": 9780765389138,
     "number_pages": 272,
-    "filename": "Kaiju_preservation.jpg",
+    "filename": "/Images/front_page/Kaiju_preservation.png",
     "url": "https://www.google.com/books/edition/The_Kaiju_Preservation_Society/OJwoEAAAQBAJ?hl=en&gbpv=0"
   },
   {
@@ -73,7 +73,7 @@
     "date_publication": "September 13, 2022",
     "ISBN": 9781250854124,
     "number_pages": 496,
-    "filename": "Nona.jpg",
+    "filename": "/Images/front_page/Nona.png",
     "url": "https://www.google.com/books/edition/Nona_the_Ninth/oIxCEAAAQBAJ?hl=en&gbpv=0"
   },
   {
@@ -84,7 +84,7 @@
     "date_publication": "September 1998",
     "ISBN": 9781101548929,
     "number_pages": 688,
-    "filename": "Uncrowned_king.jpg",
+    "filename": "/Images/front_page/Uncrowned_king.png",
     "url": "https://www.google.com/books/edition/The_Uncrowned_King/ZFqJEAAAQBAJ?hl=en&gbpv=0"
   },
   {
@@ -95,7 +95,7 @@
     "date_publication": "September 6, 2022",
     "ISBN": 9781668002186,
     "number_pages": 608,
-    "filename": "Fairy_tail.jpg",
+    "filename": "/Images/front_page/Fairy_tail.png",
     "url": "https://www.google.com/books/edition/Fairy_Tale/-GFaEAAAQBAJ?hl=en&gbpv=0"
   },
   {
@@ -106,7 +106,7 @@
     "date_publication": "June 2005",
     "ISBN": 9781411637191,
     "number_pages": 272,
-    "filename": "Children_of_rhatlan.jpg",
+    "filename": "/Images/front_page/Children_of_rhatlan.png",
     "url": "https://www.google.com/books/edition/Children_of_Rhatlan/UGlxf4xyZpsC?hl=en&gbpv=0"
   },
   {
@@ -117,7 +117,7 @@
     "date_publication": "June 19, 2018",
     "ISBN": 9781250151339,
     "number_pages": 304,
-    "filename": "Bring_me_back.jpg",
+    "filename": "/Images/front_page/Bring_me_back.png",
     "url": "https://www.google.com/books/edition/Bring_Me_Back/pLdZDwAAQBAJ?hl=en&gbpv=0"
   },
   {
@@ -128,7 +128,7 @@
     "date_publication": "November 8, 2022",
     "ISBN": 9781728250984,
     "number_pages": 432,
-    "filename": "The_last_party.jpg",
+    "filename": "/Images/front_page/The_last_party.png",
     "url": "https://www.google.com/books/edition/The_Last_Party/pZheEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwjssOK8iIqAAxX1RjABHTp1C9EQiqUDegQIAxAq"
   },
   {
@@ -139,7 +139,7 @@
     "date_publication": "July 5, 2022",
     "ISBN": 9780802159694,
     "number_pages": 200,
-    "filename": "The_murder_book.jpg",
+    "filename": "/Images/front_page/The_murder_book.png",
     "url": "https://www.google.com/books/edition/The_Murder_Book/pj5VEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwiglMP2iIqAAxVHfTABHUqRDdUQiqUDegQIAxBH"
   },
   {
@@ -150,7 +150,7 @@
     "date_publication": "August 2, 2022",
     "ISBN": 9781982185572,
     "number_pages": 352,
-    "filename": "A_Tidy_ending.jpg",
+    "filename": "/Images/front_page/A_Tidy_ending.png",
     "url": "https://www.google.com/books/edition/A_Tidy_Ending/eHp5EAAAQBAJ?hl=en&sa=X&ved=2ahUKEwiJ1MLHiYqAAxUDRTABHQ1DCeYQiqUDegQIAxBX"
   },
   {
@@ -161,7 +161,7 @@
     "date_publication": "August 2, 2022",
     "ISBN": 9781984855992,
     "number_pages": 368,
-    "filename": "Such_a_good_mother.jpg",
+    "filename": "/Images/front_page/Such_a_good_mother.png",
     "url": "https://www.google.com/books/edition/Such_a_Good_Mother/hEBQEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwjq8IT5iYqAAxVgQjABHSyKCwcQiqUDegQIAxAg"
   },
   {
@@ -172,7 +172,7 @@
     "date_publication": "December 13, 2011",
     "ISBN": 9781573447669,
     "number_pages": 242,
-    "filename": "Best_erotic_romance.jpg",
+    "filename": "/Images/front_page/Best_erotic_romance.png",
     "url": "https://www.google.com/books/edition/Best_Erotic_Romance/tw1zsnUkRTkC?hl=en"
   },
   {
@@ -183,7 +183,7 @@
     "date_publication": "May 14, 2019",
     "ISBN": 9781250316776,
     "number_pages": 448,
-    "filename": "Red_white_and_royal_blue.jpg",
+    "filename": "/Images/front_page/Red_white_and_royal_blue.png",
     "url": "https://www.google.com/books/edition/Red_White_Royal_Blue/_jNwDwAAQBAJ?hl=en"
   },
   {
@@ -194,7 +194,7 @@
     "date_publication": "September 14, 2021",
     "ISBN": 9780593336823,
     "number_pages": 400,
-    "filename": "The_love_hypothesis.jpg",
+    "filename": "/Images/front_page/The_love_hypothesis.png",
     "url": "https://www.google.com/books/edition/The_Love_Hypothesis/OuY9EAAAQBAJ?hl=en&sa=X&ved=2ahUKEwir1tP1ooqAAxVfkokEHSLRBfcQiqUDegQIAxA5"
   },
   {
@@ -205,7 +205,7 @@
     "date_publication": "February 8, 2022",
     "ISBN": 9781668002520,
     "number_pages": 448,
-    "filename": "The_Spanish_Love_deception.jpg",
+    "filename": "/Images/front_page/The_Spanish_Love_deception.png",
     "url": "https://www.google.com/books/edition/The_Spanish_Love_Deception/a6VXEAAAQBAJ?hl=en&sa=X&ved=2ahUKEwiM_t-io4qAAxVYhIkEHT4jDakQiqUDegQIAxAM"
   },
   {
@@ -216,7 +216,7 @@
     "date_publication": "August 9, 2016",
     "ISBN": 9780062439604,
     "number_pages": 384,
-    "filename": "The_hating_game.jpg",
+    "filename": "/Images/front_page/The_hating_game.png",
     "url": "https://www.google.com/books/edition/The_Hating_Game/5a3rCgAAQBAJ?hl=en&sa=X&ved=2ahUKEwiM6OHOo4qAAxVKlIkEHdZ1D2gQiqUDegQIAxAR"
   },
   {
@@ -227,7 +227,7 @@
     "date_publication": "2017",
     "ISBN": 9789888407392,
     "number_pages": 1046,
-    "filename": "U.S._history.jpg",
+    "filename": "/Images/front_page/U.S._history.png",
     "url": "https://www.google.com/books/edition/U_S_History/2py3swEACAAJ?hl=en"
   },
   {
@@ -238,7 +238,7 @@
     "date_publication": "2001",
     "ISBN": 9780674004733,
     "number_pages": 718,
-    "filename": "Rusia_and_the_russians.jpg",
+    "filename": "/Images/front_page/Rusia_and_the_russians.png",
     "url": "https://www.google.com/books/edition/Russia_and_the_Russians/oh-5AAmboMUC?hl=en&gbpv=0&bsq=history"
   },
   {
@@ -249,7 +249,7 @@
     "date_publication": "August 21, 2012",
     "ISBN": 9781439170199,
     "number_pages": 128,
-    "filename": "The_lessons_of_history.jpg",
+    "filename": "/Images/front_page/The_lessons_of_history.png",
     "url": "https://www.google.com/books/edition/The_Lessons_of_History/LWNQ2_4wkocC?hl=en&gbpv=0"
   },
   {
@@ -260,7 +260,7 @@
     "date_publication": "December 2009",
     "ISBN": 9780307473523,
     "number_pages": 432,
-    "filename": "A_history_of_Egypt.jpg",
+    "filename": "/Images/front_page/A_history_of_Egypt.png",
     "url": "https://www.google.com/books/edition/A_History_of_Egypt/lFGxHMxqgH8C?hl=en"
   },
   {
@@ -271,7 +271,7 @@
     "date_publication": "February 2013",
     "ISBN": 9781135119836,
     "number_pages": 416,
-    "filename": "A_History_of_the_Ptolemaic_Empire.jpg",
+    "filename": "/Images/front_page/A_History_of_the_Ptolemaic_Empire.png",
     "url": "https://www.google.com/books/edition/A_History_of_the_Ptolemaic_Empire/EPkfGkwgi9YC?hl=en&gbpv=0"
   }
 ]

@@ -41,7 +41,7 @@ Book.init(
       allowNull: false,
     },
     filename: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(126),
       allowNull: false,
     },
     url: {
