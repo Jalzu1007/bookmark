@@ -4,6 +4,8 @@ const { User, Book } = require('../models');
 const userData = require('./userData.json');
 const bookData = require('./bookData.json');
 
+console.log(bookData);
+
 const seedDatabase = async () => {
   await sequelize.sync({ force: true });
 
