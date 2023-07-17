@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 });
 
 // GET a book
-router.get('/:isbn', (req, res) => {
+router.get('/:id', (req, res) => {
   // Get one book from the book table
   Book.findOne(
     {
@@ -26,7 +26,7 @@ router.get('/:isbn', (req, res) => {
 });
 
 // Updates book based on its isbn
-router.put('/:isbn', (req, res) => {
+router.put('/:id', (req, res) => {
   // Calls the update method on the Book model
   Book.update(
     {
@@ -53,17 +53,24 @@ router.put('/:isbn', (req, res) => {
 });
 
 // Delete route for a book with a matching isbn
-router.delete('/:isbn', (req, res) => {
-  // Looks for the books based on isbn given in the request parameters and deletes the instance from the database
-  Book.destroy({
-    where: {
-      isbn: req.params.isbn,
-    },
-  })
-    .then((deletedBook) => {
-      res.json(deletedBook);
-    })
-    .catch((err) => res.json(err));
+router.delete('/:id', withAuth, async (req, res) => {
+  try {
+    const bookData = await Book.destroy({
+      where: {
+        id: req.params.id,
+        user_id: req.session.user_id,
+      },
+    });
+
+    if (!bookData) {
+      res.status(404).json({ message: 'No book found with this id!' });
+      return;
+    }
+
+    res.status(200).json(bookData);
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
 
 router.post('/seed', (req, res) => {
