@@ -1,14 +1,15 @@
 const newFormHandler = async (event) => {
   event.preventDefault();
 
-  const name = document.querySelector('#book-name').value.trim();
-  const needed_funding = document.querySelector('#book-funding').value.trim();
-  const description = document.querySelector('#book-desc').value.trim();
+  const title = document.querySelector('#book-title').value.trim();
+  const synopsis = document.querySelector('#book-synopsis').value.trim();
+  const author = document.querySelector('#book-author').value.trim();
 
-  if (name && needed_funding && description) {
+
+  if (title && synopsis && author) {
     const response = await fetch(`/api/books`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
+      body: JSON.stringify({ title, synopsis, author }),
       headers: {
         'Content-Type': 'application/json',
       },
@@ -33,6 +34,7 @@ const delButtonHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/profile');
     } else {
+      console.log('Failed to delete book')
       alert('Failed to delete book');
     }
   }
