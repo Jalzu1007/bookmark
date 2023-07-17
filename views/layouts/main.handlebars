@@ -26,9 +26,7 @@
     <nav class="navbar p-3" role="navigation" aria-label="main navigation" style="background-color: #A4907C;">
       <div class="navbar-brand">
         <a><img src="/Images/Logo/logo.png" style="width: 220px ;  opacity: 0.7 ; border-radius:150px; box-shadow: 6px 12px 4px #EDDBC7;"> </a>
-        <a class="navbar-item has-text-weight-bold is-size-5" width="112" height="28" href="/">
-        Home
-        </a>
+      
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -38,6 +36,9 @@
 
       <div class="navbar-menu navbar-end">
         <div class="navbar-item has-text-weight-bold is-size-5" width="112" height="28">
+            <a class= "navbar-item hover" href="/" > 
+        Home
+        </a>
           <!--Render conditional statements-->
           {{#if logged_in}}
           <a class="navbar-item hover" href="/profile">Profile</a>
