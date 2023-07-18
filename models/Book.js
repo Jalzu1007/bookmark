@@ -22,22 +22,11 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    genre: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
-    // rating: {
-    //   type: DataTypes.STRING,
-    // },
     date_added: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    // ISBN: {
-    //   type: DataTypes.BIGINT,
-    //   allowNull: false,
-    // },
     user_id: {
       type: DataTypes.INTEGER,
       references: {

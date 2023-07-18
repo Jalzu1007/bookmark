@@ -11,6 +11,7 @@ router.post('/', withAuth, async (req, res) => {
 
     res.status(200).json(newBook);
   } catch (err) {
+    console.log(err)
     res.status(400).json(err);
   }
 });
@@ -24,8 +25,6 @@ router.put('/:id', (req, res) => {
       title: req.body.title,
       author: req.body.author,
       description: req.body.description,
-      rating: req.body.rating,
-      genre: req.body.genre,
       
     },
     {
