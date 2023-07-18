@@ -15,9 +15,8 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    synopsis: {
-      type: DataTypes.STRING(1234),
-      allowNull: false,
+    description: {
+      type: DataTypes.STRING,
     },
     author: {
       type: DataTypes.STRING,
@@ -27,27 +26,18 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    date_publication: {
+    // rating: {
+    //   type: DataTypes.STRING,
+    // },
+    date_added: {
       type: DataTypes.DATE,
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    ISBN: {
-      type: DataTypes.BIGINT,
-      allowNull: false,
-    },
-    number_pages: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-    },
-    filename: {
-      type: DataTypes.STRING(126),
-      allowNull: false,
-    },
-    url: {
-      type: DataTypes.STRING,
-      allowNull: false,
-    },
+    // ISBN: {
+    //   type: DataTypes.BIGINT,
+    //   allowNull: false,
+    // },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
