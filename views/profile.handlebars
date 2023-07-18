@@ -3,27 +3,23 @@
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
-
 <div class="tile is-parent is-justify-content-start p-6 m-3 ">
     <div class="tile is-4 is-child box has-text-centered">
-      <h3>Add a New Book:</h3>
-
-  <form class="form new-book-form">
   <div class="field">
-    <label for="book-title" class="label">Book Title</label>
+    <label class="label">Book Title</label>
     <div class="control">
-      <input class="input" type="text" placeholder="book read" id="book-title" name="book-title">
+      <input class="input" type="text" placeholder="book read">
     </div>
   </div>
   <div class="field">
-    <label for="book-author" class="label">Author</label>
+    <label class="label">Author</label>
     <div class="control">
-      <input class="input" type="text" placeholder="written by"  id="book-author" name="book-author">
+      <input class="input" type="text" placeholder="written by">
     </div>
   </div>
-  {{!-- <div class="field">
-    <label for="book-rating" class="label">My Rating</label>
-    <div  id="book-rating" name="book-rating" class="rating">
+  <div class="field">
+    <label class="label">My Rating</label>
+    <div class="rating">
       <input type="radio" id="star5" name="rating" value="5">
       <label for="star5"></label>
       <input type="radio" id="star4" name="rating" value="4">
@@ -35,17 +31,17 @@
       <input type="radio" id="star1" name="rating" value="1">
       <label for="star1"></label>
     </div>
-  </div> --}}
+  </div>
   <div class="field">
-    <label for="book-description" class="label">Write your thoughts!</label>
+    <label class="label">Write your thoughts!</label>
     <div class="control">
-      <textarea class="textarea" id="book-description" name="book-description" placeholder="most suprising moment, favorite character(s), quotes to remember, write it all!! 📚 🤓"></textarea>
+      <textarea class="textarea" placeholder="most suprising moment, favorite character(s), quotes to remember, write it all!! :books: :nerd_face:"></textarea>
     </div>
   </div>
-  {{!-- <div class="field">
-    <label for="book-genre" class="label">Genre</label>
+  <div class="field">
+    <label class="label">Genre</label>
     <div class="control">
-      <div id="book-genre" name="book-genre" class="select">
+      <div class="select">
         <select>
           <option></option>
           <option>Biography</option>
@@ -62,10 +58,10 @@
         </select>
       </div>
     </div>
-  </div> --}}
-  {{!-- <div class="field">
-    <label for="book-ending" class="label">Did you like the ending?</label>
-    <div id="book-ending" name="book-ending" class="control">
+  </div>
+  <div class="field">
+    <label class="label">Did you like the ending?</label>
+    <div class="control">
       <label class="radio">
         <input type="radio" name="question">
         Yes
@@ -75,23 +71,20 @@
         No
       </label>
     </div>
-  </div> --}}
+  </div>
   <div class="field is-grouped">
     <div class="control">
-      <button type="submit" class="button is-link">Submit</button>
+      <button id="submit-review" class="button is-link">Submit</button>
     </div>
     <div class="control">
       <button class="button is-link is-light">Cancel</button>
     </div>
   </div>
   </div>
-  </form>
   </div>
-
   {{#if books.length}}
   <div class="col-md-6 book-list">
     <h3>Current books:</h3>
-
     {{#each books as |book|}}
     <div class="row mb-2">
       <div class="col-md-8">
@@ -105,5 +98,4 @@
   </div>
   {{/if}}
 </div>
-
 <script src="./js/profile.js"></script>

@@ -111,5 +111,11 @@ a:visited {
 .rating:not(:checked) label:hover ~ label {
   color: #FFDD57;
 }
+.middle-box{
+  background-blend-mode: lighten;
 
+}
 
+.tile {
+  background-color: transparent !important;
+}
