@@ -1,15 +1,12 @@
 <div class="bookpage-container" >
 <div >
-  <img id="bookpage-image" src="{{filename}}" alt="image">
+  {{!-- <img id="bookpage-image" src="{{filename}}" alt="image"> --}}
   <div id="bookpage-text">
     <h2>{{title}}</h2>
-    <p>{{{get_emoji}}}</p>
-    <p>{{synopsis}}</p>
     <p>Written by {{author}}</p>
-    <p> Genre: {{genre}}</p>
-    <p>{{number_pages}} pages</p>
-    <p>First published: {{date_publication}}</p>
-    <p>ISBN: {{ISBN}}</p>
+    <p>Genre: {{genre}}</p>
+    <p>My rating: {{rating}}</p>
+    <p>My thoughts: {{description}}</p>
     <p>
       <button style="margin-top: 10px;" class="btn btn-primary">Finished this book!</button>
     </p>
