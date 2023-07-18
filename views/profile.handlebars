@@ -4,23 +4,84 @@
   </div>
 </div>
 
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Add a New Book:</h3>
-
-    <form class="form new-book-form">
-      <div class="form-group">
-        <label for="book-title">book title:</label>
-        <input class="form-input" type="text" id="book-title" name="book-title" />
+<div class="tile is-parent is-justify-content-start p-6 m-3 ">
+    <div class="tile is-4 is-child box has-text-centered">
+  <div class="field">
+    <label class="label">Book Title</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="book read">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Author</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="written by">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">My Rating</label>
+    <div class="rating">
+      <input type="radio" id="star5" name="rating" value="5">
+      <label for="star5"></label>
+      <input type="radio" id="star4" name="rating" value="4">
+      <label for="star4"></label>
+      <input type="radio" id="star3" name="rating" value="3">
+      <label for="star3"></label>
+      <input type="radio" id="star2" name="rating" value="2">
+      <label for="star2"></label>
+      <input type="radio" id="star1" name="rating" value="1">
+      <label for="star1"></label>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Write your thoughts!</label>
+    <div class="control">
+      <textarea class="textarea" placeholder="most suprising moment, favorite character(s), quotes to remember, write it all!! 📚 🤓"></textarea>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Genre</label>
+    <div class="control">
+      <div class="select">
+        <select>
+          <option></option>
+          <option>Biography</option>
+          <option>Fantasy</option>
+          <option>History</option>
+          <option>Literary Fiction</option>
+          <option>Mystery</option>
+          <option>Romance</option>
+          <option>Science Fiction</option>
+          <option>Self-Help</option>
+          <option>Thriller</option>
+          <option>Young-Adult Fiction</option>
+          <option>Other</option>
+        </select>
       </div>
-      <div class="form-group">
-        <label for="book-comment">comment:</label>
-        <textarea class="form-input" id="book-comment" name="book-comment"></textarea>
-      </div>
-      <div class="form-group">
-        <button type="submit" class="btn btn-primary">Add your Comment!</button>
-      </div>
-    </form>
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Did you like the ending?</label>
+    <div class="control">
+      <label class="radio">
+        <input type="radio" name="question">
+        Yes
+      </label>
+      <label class="radio">
+        <input type="radio" name="question">
+        No
+      </label>
+    </div>
+  </div>
+  <div class="field is-grouped">
+    <div class="control">
+      <button class="button is-link">Submit</button>
+    </div>
+    <div class="control">
+      <button class="button is-link is-light">Cancel</button>
+    </div>
+  </div>
+  </div>
   </div>
 
   {{#if books.length}}
