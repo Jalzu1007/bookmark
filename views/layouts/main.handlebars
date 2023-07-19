@@ -25,8 +25,7 @@
     <!--Navbar Section-->
     <nav class="navbar p-3" role="navigation" aria-label="main navigation" style="background-color: #A4907C;">
       <div class="navbar-brand">
-        <img src="/Images/Logo/logo_transparent.png" style="width: 90px;"> 
-        
+         <a class="navbar-item hover has-text-weight-bold is-size-5"  width="112" height="28" href="/">BookMark</a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -36,9 +35,6 @@
 
       <div class="navbar-menu navbar-end">
         <div class="navbar-item has-text-weight-bold is-size-5" width="112" height="28">
-          <a class="navbad-item hover" href="/">
-        Home
-        </a>
           <!--Render conditional statements-->
           {{#if logged_in}}
           <a class="navbar-item hover" href="/profile">Profile</a>
