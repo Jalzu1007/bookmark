@@ -39,7 +39,7 @@
       <div class="field">
         <label for="book-description" class="label">Write your thoughts!</label>
         <div class="control">
-          <textarea class="textarea" id="book-description" name="book-description" placeholder=" write all your favorite moments, characters and thoughts on the ending!!"></textarea>
+          <textarea class="textarea" id="book-description" name="book-description" placeholder="write all your favorite moments, characters and thoughts on the ending!!"></textarea>
         </div>
       </div>
       <!--Future Development on the app-->
@@ -92,7 +92,7 @@
     {{#each books as |book|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4 class="is-size-3 has-text-weight-bold mb-4"><a href="/book/{{book.id}}">{{book.title}}</a></h4>
+        <h4 class="is-size-6 has-text-weight-bold m-4"><a href="/book/{{book.id}}">{{book.title}}</a></h4>
       </div>
       <div class="col-md-4">
         <button class="button is-light" data-id="{{book.id}}">Delete</button>
