@@ -7,17 +7,15 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
   background-color: #C8B6A6;
 }
 
-body {
-  /* display: flex;
-  flex-direction: column; */
+.wrapper {
   min-height: 100vh;
 }
 
-main {
+.container {
   flex-grow: 1;
 }
 
@@ -42,23 +40,6 @@ a:visited {
   color: whitesmoke;
 }
 
-/* .form {
-  justify-self: auto;
-}
-.bookpage-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.bookpage-container img {
-  position: relative;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 225px;
-} */
-
 #email-login {
   margin-bottom: 5px;
 }
@@ -67,9 +48,6 @@ a:visited {
   margin-bottom: 5px;
 }
 
-#login-image{
-  margin-left: 40px;
-}
 
 #homepage-image {
   width: 25%
@@ -84,7 +62,17 @@ a:visited {
   margin-top: 25px;
 }
 
-.rating {
+.middle-box{
+  background-blend-mode: lighten;
+
+}
+
+.tile {
+  background-color: transparent !important;
+}
+
+/*Rating Font Awesome
+/* .rating {
   direction: rtl;
   display: inline-block;
 }
@@ -110,12 +98,4 @@ a:visited {
 .rating:not(:checked) label:hover,
 .rating:not(:checked) label:hover ~ label {
   color: #FFDD57;
-}
-.middle-box{
-  background-blend-mode: lighten;
-
-}
-
-.tile {
-  background-color: transparent !important;
-}
+} */
