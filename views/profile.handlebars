@@ -92,10 +92,10 @@
     {{#each books as |book|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/book/{{book.id}}">{{book.title}}</a></h4>
+        <h4 class="is-size-3 has-text-weight-bold mb-4"><a href="/book/{{book.id}}">{{book.title}}</a></h4>
       </div>
       <div class="col-md-4">
-        <button class="button is-light" data-id="{{book.id}}">DELETE</button>
+        <button class="button is-light" data-id="{{book.id}}">Delete</button>
       </div>
     </div>
     {{/each}}
