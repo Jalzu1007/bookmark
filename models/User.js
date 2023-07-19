@@ -1,10 +1,14 @@
 const { Model, DataTypes } = require('sequelize');
-const bcrypt = require('bcryptjs');
+// Import the md5 package
+const md5 = require('md5'); 
 const sequelize = require('../config/connection');
 
 class User extends Model {
   checkPassword(loginPw) {
-    return bcrypt.compareSync(loginPw, this.password);
+     // Use md5 to hash the login password
+    const hashedLoginPw = md5(loginPw);
+    // Compare the hashed passwords
+    return hashedLoginPw === this.password; 
   }
 }
 
@@ -31,9 +35,6 @@ User.init(
     password: {
       type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [8],
-      },
     },
     book_id: {
       type: DataTypes.INTEGER,
@@ -45,12 +46,12 @@ User.init(
   },
   {
     hooks: {
-      beforeCreate: async (newUserData) => {
-        newUserData.password = await bcrypt.hash(newUserData.password, 10);
+      beforeCreate: (newUserData) => {
+        newUserData.password = md5(newUserData.password); 
         return newUserData;
       },
-      beforeUpdate: async (updatedUserData) => {
-        updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);
+      beforeUpdate: (updatedUserData) => {
+        updatedUserData.password = md5(updatedUserData.password); 
         return updatedUserData;
       },
     },
