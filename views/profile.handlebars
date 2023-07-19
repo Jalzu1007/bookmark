@@ -20,6 +20,7 @@
           <input class="input" type="text" placeholder="written by"  id="book-author" name="book-author">
         </div>
       </div>
+      <!--Future Development on the app-->
       {{!-- <div class="field">
         <label for="book-rating" class="label">My Rating</label>
         <div  id="book-rating" name="book-rating" class="rating">
@@ -41,6 +42,7 @@
           <textarea class="textarea" id="book-description" name="book-description" placeholder=" write all your favorite moments, characters and thoughts on the ending!!"></textarea>
         </div>
       </div>
+      <!--Future Development on the app-->
       {{!-- <div class="field">
         <label for="book-genre" class="label">Genre</label>
         <div class="control">
@@ -77,14 +79,12 @@
       </div> --}}
       <div class="field is-grouped is-justify-content-center">
         <div class="control">
-          <button type="submit" class="button is-link">Submit</button>
+          <button type="submit" class="button is-light">Submit</button>
         </div>
       </div>
       </div>
       </form>
     </div>
-
-
   {{#if books.length}}
 <div class="column is-6">
   <div class="box p-6 m-3 book-list">
@@ -95,14 +95,13 @@
         <h4><a href="/book/{{book.id}}">{{book.title}}</a></h4>
       </div>
       <div class="col-md-4">
-        <button class="btn btn-sm btn-danger" data-id="{{book.id}}">DELETE</button>
+        <button class="button is-light" data-id="{{book.id}}">DELETE</button>
       </div>
     </div>
     {{/each}}
   </div>
   {{/if}}
-</div>
-
+  </div>  
 </div>
 
 <script src="./js/profile.js"></script>
