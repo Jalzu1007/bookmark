@@ -3,7 +3,7 @@
   
   ## Description
 
-  Its a webpage were you can create your profile, add it to your profile what books you readed to keep a track, the rating that you give to that book, and what were your final thougths about that book.
+  Welcome to BookMark, your personal space to keep track of all the books you've read and share your thoughts and reviews. Whether you're an avid reader, a book enthusiast, or just someone looking to discover new literary gems, BookMark is the perfect platform for you.
 
   ## Table of Contents
 
@@ -28,7 +28,7 @@
   ## Usage
 
  ### 1
- Homepage.
+ On your browser travel to our webpage *webpage address*.
 
  ### 2 
   #### -When the user opens the page, they will be presented with a homepage that offers two options:
@@ -70,7 +70,7 @@
 
   ## Questions
 
-  If you have any questions about the repository, open an issue or contact me directly at .. You can find more of my projects at:
+  If you have any questions about the repository, open an issue and we will respond as soon as we have a chance. You can also find more of our projects at:
     https://github.com/k-pineda 
     https://github.com/HyonNeo 
     https://github.com/Jalzu1007 
