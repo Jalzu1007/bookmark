@@ -15,8 +15,6 @@
 
   - [How to Contribute](#Contribute)
 
-  - [Tests](#tests)
-
   - [Questions](#questions)
 
   ## Installation
@@ -28,7 +26,7 @@
   ## Usage
 
  ### 1
- On your browser travel to our webpage *webpage address*.
+ On your browser travel to our webpage https://the-bookmark-bd6e85df4657.herokuapp.com/
 
  ### 2 
   #### -When the user opens the page, they will be presented with a homepage that offers two options:
@@ -52,6 +50,12 @@
 #### Each review made by the user will be displayed with relevant information, such as the book title, author, review text, and rating. The reviews will be listed in reverse chronological order, with the most recent review at the top.
 #### By following these steps, users can easily navigate the book application, sign up or log in, write reviews for books, manage their existing reviews, and view a history of their past reviews in their profile. This design provides a user-friendly experience for book enthusiasts to share their thoughts and experiences with different books.
 
+Deployed Heroku website:
+
+https://the-bookmark-bd6e85df4657.herokuapp.com/
+
+Walkthrough video of Bookmark Application:
+
   ## License  
 
   This project is licensed under the MIT License.
@@ -61,12 +65,6 @@
   ## How to Contribute
 
     We accept any ideas if someone is interested in contributing to this repository
-
-  ## Tests
-
-    To run tests, run the following command:
-
-    npm start
 
   ## Questions
 
