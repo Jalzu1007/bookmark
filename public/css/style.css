@@ -67,7 +67,8 @@ a:visited {
 
 }
 
-.tile {
+
+#tile {
   background-color: transparent !important;
 }
 
