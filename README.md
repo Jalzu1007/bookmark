@@ -57,7 +57,7 @@
   ## Usage
 
  ### 1
- To experience BookMark, visit our deployed Heroku website: https://the-bookmark-bd6e85df4657.herokuapp.com/
+ To experience BookMark, visit our deployed Heroku website: [BookMark](https://the-bookmark-8c8f44b2a0ce.herokuapp.com/)
 
  For a detailed walkthrough of the application, watch our video:
 
